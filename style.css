@@ -1,0 +1,183 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bgimage {
+  /* position: fixed; */
+  background-image: url("tt.jpg");
+  background-size: 100% 110%;
+  width: 100%;
+  height: 100vh;
+}
+
+.menu {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.leftmenu {
+  width: 20%;
+  line-height: 100px;
+  float: left;
+  /*	background-color: yellow;*/
+}
+
+.leftmenu h4 {
+  padding-left: 70px;
+  font-weight: bold;
+  color: white;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.rightmenu {
+  width: 70%;
+  height: 100px;
+  float: right;
+  /* position: fixed; */
+  /*	background-color: red; */
+}
+
+.rightmenu ul {
+  margin-left: 200px;
+}
+
+.rightmenu ul li {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  list-style: none;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  line-height: 100px;
+  margin-left: 40px;
+  text-transform: uppercase;
+}
+
+#fisrtlist {
+  color: orange;
+}
+
+.rightmenu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.rightmenu ul li a:hover {
+  color: orange;
+}
+
+.text {
+  width: 100%;
+  margin-top: 185px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+
+.text h4 {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text h1 {
+  font-size: 62px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700px;
+  margin: 14px 0px;
+}
+
+.text h3 {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#buttonone {
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 40px;
+  width: 150px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 25px;
+  border: 3px solid white;
+}
+
+#buttonone:hover {
+  background-color: black;
+  color: aqua;
+}
+#buttontwo:hover {
+  background-color: black;
+  color: aqua;
+}
+
+#buttontwo {
+  background-color: transparent;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 40px;
+  border: 3px solid white;
+  width: 150px;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.icon-bar a {
+  width: 18rem;
+  background: #3b5999;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.7rem;
+  padding: -50.5rem;
+  transition: all 0.5s linear;
+  transform: translateX(-15.5rem);
+}
+
+.icon-bar a:hover {
+  transform: translateX(0);
+}
+
+.icon-bar a .fab {
+  padding-left: 1rem;
+  font-size: 3rem;
+  animation: letszoom 3s linear alternate-reverse infinite;
+}
+
+@keyframes letszoom {
+  from {
+    transform: scale(0.6);
+  }
+  to {
+    transform: scale(0.9);
+  }
+}
+
+.icon-bar .twitter {
+  background: #00aced;
+}
+
+.icon-bar .instagram {
+  background: #e4405f;
+}
+
+.icon-bar .youtube {
+  background: #cd201f;
+}
+
+.icon-bar .linkedin {
+  background: #0077b5;
+}
